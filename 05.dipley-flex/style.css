@@ -1,0 +1,30 @@
+*{margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.sec1{width: 100%;
+border: 1px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.box{
+    width: 100%;
+    margin: 10px;
+    height: 15vh;
+    border: 1px solid gray;
+    background-color: blue;
+}
+.divn1{display: flex;}
+.sec2{
+    display: flex;
+}
+.secn2{display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.n3{display: flex;
+
+}

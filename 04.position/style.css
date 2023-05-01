@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  width: 80px;
+}
+.nav-ul {
+  background-color: rgb(199, 144, 98);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.lidiv {
+  display: flex;
+  column-gap: 20px;
+}
+.lupa:hover {
+  border: 1px solid transparent green;
+  background-color: blue;
+}
+.search{
+    visibility: hidden;
+    border-radius: 10px;
+    outline: none;
+}
+.lidiv:hover input{
+    visibility: visible;
+    transition: 0.5s;
+    height: 40px;
+}
+  
+
+.search::placeholder {
+    text-align: center;
+  
+ 
+  
+}
+
+.sec2 {
+  height: 100vh;
+  background-image: url("./mountainwinter1.jpg");
+  background-size: cover;
+  padding: 200px 700px 200px 50px;
+}
+.sec3 {
+  height: 100vh;
+  background-image: url("./minyon2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sec4 {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+  background-color: aqua;
+  position: relative;
+}
+.box {
+  background-color: brown;
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.two {
+  right: 0px;
+}
+.three {
+  bottom: 0px;
+}
+.four {
+  bottom: 0px;
+  right: 0px;
+}
+.five {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,15 @@
+#sec1{
+    background-color: aqua;
+}
+
+.name{color: red;}
+.username{color: blue;}
+.email{color: green;}
+.pasword{color: yellow;}
+input:focus::placeholder{color: red;}
+input:focus{color: white;
+background-color: darkmagenta;}
+button:hover{color: blue;
+background-color: red;}
+button{color: green;
+background-color: black;}

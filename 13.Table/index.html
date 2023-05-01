@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI";
+        box-sizing: border-box;
+      }
+      table {
+        width: 100%;
+
+        margin: 1px auto;
+
+        border-collapse: collapse;
+      }
+      table td,
+      table th {
+        border: 1px solid #ddd;
+        padding: 15px 10px;
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <sction class="sec1">
+
+      <h1>Users Information</h1>
+      <input id="search" type="text" placeholder="Search...">
+      <table>
+        <thead>
+          <tr>
+            <th id="id">ID</th>
+            <th id="name">Name</th>
+            <th id="username">Username</th>
+            <th id="email">Email</th>
+            <th id="adres">Address</th>
+            <th id="phone">Phone</th>
+            <th id="websites">Websites</th>
+            <th id="company">Company</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </sction>
+    <script src="./script.js"></script>
+  </body>
+</html>
