@@ -6,4 +6,5 @@ $\color{red}{09.DOM-practise}$-https://endearing-zuccutto-404800.netlify.app <br
 $\color{red}{12.JS-TodoApp}$-https://bejewelled-haupia-6eadc6.netlify.app <br>
 $\color{red}{13.Table}$-https://velvety-axolotl-2ab88a.netlify.app <br>
 $\color{red}{14.dom-events}$-https://imaginative-mochi-5b77ee.netlify.app <br>
-18.LocalStorage-https://fabulous-entremet-13096f.netlify.app <br>
+$\color{red}{18.LocalStorage}$-https://fabulous-entremet-13096f.netlify.app <br>
+$\color{red}{19.Storage-form}$-https://rococo-kheer-234536.netlify.app <br>
