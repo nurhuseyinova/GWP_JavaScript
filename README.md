@@ -10,3 +10,4 @@ $\color{red}{18.LocalStorage}$-https://fabulous-entremet-13096f.netlify.app <br>
 $\color{red}{19.Storage-form}$-https://rococo-kheer-234536.netlify.app <br>
 $\color{red}{20.Storage-card}$-https://chipper-croquembouche-f596e8.netlify.app <br>
 $\color{red}{21.Jquery}$-https://steady-empanada-ab719b.netlify.app <br>
+$\color{red}{25.Table-fetch}$-https://cheerful-meringue-b71ea6.netlify.app <br>
