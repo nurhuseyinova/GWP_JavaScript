@@ -11,4 +11,5 @@ $\color{red}{19.Storage-form}$-https://rococo-kheer-234536.netlify.app <br>
 $\color{red}{20.Storage-card}$-https://chipper-croquembouche-f596e8.netlify.app <br>
 $\color{red}{21.Jquery}$-https://steady-empanada-ab719b.netlify.app <br>
 $\color{red}{23.Promise}$-https://spontaneous-froyo-a7d451.netlify.app <br>
+$\color{red}{24.ClickEvents-flex}$-https://jade-marzipan-1f8f0b.netlify.app <br>
 $\color{red}{25.Table-fetch}$-https://cheerful-meringue-b71ea6.netlify.app <br>
