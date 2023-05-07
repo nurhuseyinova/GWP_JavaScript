@@ -33,23 +33,20 @@ function deleteBtn(id) {
 function sortApi() {
   fetch(`${API}`)
     .then((info) => info.json())
-    .then((data) => {
-      let filtered = data.filter((el) => el.id);
-
+    .then((data) => data.filter((el) => el.id))
+    .then((result) => {
       let asc = "asc";
+      let sorted;
       idBtn.addEventListener("click", function () {
-        let sorted;
         asc = !asc;
         if (asc) {
-          sorted = filtered.sort((a, b) => a.id - b.id);
+          sorted = result.sort((a, b) => a.id - b.id);
         } else {
-          sorted = filtered.sort((a, b) => b.id - a.id);
+          sorted = result.sort((a, b) => b.id - a.id);
         }
+
         console.log(sorted);
-        // getApi()
       });
-      // return filtered
-      // console.log(filtered);
     });
 }
 sortApi();
