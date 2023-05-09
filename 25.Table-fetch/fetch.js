@@ -6,8 +6,19 @@ function getApi() {
   tBody.innerHTML = "";
   fetch(API)
     .then((info) => info.json())
-    .then((data) =>
-      data.forEach((el) => {
+    .then((data) =>{
+    let sorted;
+    if(asc==='asc'){
+      asc="dec"
+      sorted=data.sort((a,b)=>a.id-b.id)
+    }
+    else{
+      asc="asc"
+      sorted=data.sort((a,b)=>b.id-a.id)
+
+    }
+
+      sorted.forEach((el) => {
         let trEL = document.createElement("tr");
         trEL.innerHTML = `
         <td>${el.id}</td>
@@ -20,7 +31,7 @@ function getApi() {
 
         tBody.append(trEL);
       })
-    );
+    });
 }
 getApi();
 
@@ -30,23 +41,8 @@ function deleteBtn(id) {
   }).then(() => getApi());
 }
 
-function sortApi() {
-  fetch(`${API}`)
-    .then((info) => info.json())
-    .then((data) => data.filter((el) => el.id))
-    .then((result) => {
-      let asc = "asc";
-      let sorted;
-      idBtn.addEventListener("click", function () {
-        asc = !asc;
-        if (asc) {
-          sorted = result.sort((a, b) => a.id - b.id);
-        } else {
-          sorted = result.sort((a, b) => b.id - a.id);
-        }
+let asc='asc'
 
-        console.log(sorted);
-      });
-    });
-}
-sortApi();
+idBtn.addEventListener("click", function () {
+  getApi()
+})
