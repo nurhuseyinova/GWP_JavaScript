@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "firstName": "Nurlana",
+      "lastName": "Huseyinova",
+      "age": "19",
+      "id": 1
+    },
+    {
+      "firstName": "Nermin",
+      "lastName": "Elekberova",
+      "age": "20",
+      "id": 3
+    },
+    {
+      "firstName": "Yaqut",
+      "lastName": "Verdiyeva",
+      "age": "21",
+      "id": 5
+    },
+    {
+      "firstName": "Ibrahim",
+      "lastName": "Huseyinov",
+      "age": "17",
+      "id": 6
+    },
+    {
+      "firstName": "Moon",
+      "lastName": "Sun",
+      "age": "21",
+      "id": 7
+    },
+    {
+      "firstName": "Isi",
+      "lastName": "Huseyinov",
+      "age": "20",
+      "id": 8
+    },
+    {
+      "firstName": "Moon",
+      "lastName": "Sun",
+      "age": "21",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "firstName": "Life",
+      "lastName": "Death",
+      "age": "?"
+    }
+    
+  ]
+}
