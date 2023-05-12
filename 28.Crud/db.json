@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "firstName": "Boris",
+      "email": "jezo@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "firstName": "Len",
+      "email": "wohofyq@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 7
+    },
+    {
+      "firstName": "Vaughan",
+      "email": "nunozyk@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 8
+    }
+  ]
+}
