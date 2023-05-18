@@ -1,0 +1,30 @@
+.sec2 {
+  .note {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7% 0;
+    h1 {
+      text-align: center;
+      position: absolute;
+      &::after {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: brown;
+      }
+    }
+  }
+  .container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .detailCard {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  }
+}

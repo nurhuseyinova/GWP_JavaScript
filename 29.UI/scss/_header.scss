@@ -1,0 +1,29 @@
+header {
+  background-color: coral;
+  .container {
+    nav {
+      padding: 10px 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        li {
+          a {
+            color: black;
+            padding: 5px 20px;
+            border: 1px dashed transparent;
+            border-radius: 5px;
+            &:hover {
+              border-color: orangered;
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}

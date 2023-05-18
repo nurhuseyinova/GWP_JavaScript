@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: coral;
+}
+header .container nav {
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+header .container nav ul li a {
+  color: black;
+  padding: 5px 20px;
+  border: 1px dashed transparent;
+  border-radius: 5px;
+}
+header .container nav ul li a:hover {
+  border-color: orangered;
+  color: red;
+}
+
+.sec1 .container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec1 .container .commonCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sec2 .note {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7% 0;
+}
+.sec2 .note h1 {
+  text-align: center;
+  position: absolute;
+}
+.sec2 .note h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: brown;
+}
+.sec2 .container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec2 .container .detailCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}/*# sourceMappingURL=main.css.map */
