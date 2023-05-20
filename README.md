@@ -14,4 +14,5 @@ $\color{red}{23.Promise}$-https://spontaneous-froyo-a7d451.netlify.app <br>
 $\color{red}{24.ClickEvents-flex}$-https://jade-marzipan-1f8f0b.netlify.app <br>
 $\color{red}{25.Table-fetch}$-https://cheerful-meringue-b71ea6.netlify.app <br>
 $\color{red}{29.UI}$-https://stellar-valkyrie-c0fa4a.netlify.app <br>
+$\color{red}{31.UI-task}$-https://tranquil-empanada-4fcef9.netlify.app <br>
 
