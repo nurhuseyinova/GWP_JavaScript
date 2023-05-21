@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(253, 183, 53);
+}
+header .container nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav h1 {
+  color: red;
+  text-shadow: 3px 3px 4px black;
+}
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+header .container nav ul li a {
+  color: white;
+}
+header .container nav ul li a i {
+  color: red;
+}
+
+.sec1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec1 .container table {
+  border-collapse: collapse;
+}
+.sec1 .container table thead tr th {
+  color: red;
+  background-color: rgb(253, 193, 193);
+  border: 1px solid rgb(75, 75, 75);
+  padding: 10px 40px;
+}
+.sec1 .container table tbody tr td {
+  color: coral;
+  background-color: rgb(247, 228, 222);
+  border: 1px solid rgb(71, 70, 70);
+  padding: 10px 20px;
+}
+.sec1 .container table tbody tr td .edit {
+  background-color: rgb(3, 85, 3);
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.sec1 .container table tbody tr td .fav {
+  background-color: blue;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.sec1 .container table tbody tr td .delete {
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.sec2 {
+  background-color: coral;
+}
+.sec2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 88vh;
+}
+.sec2 .container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.sec2 .container form input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+.sec2 .container form #submit {
+  color: red;
+  border: none;
+  background-color: rgb(247, 216, 177);
+  padding: 5px 15px;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */

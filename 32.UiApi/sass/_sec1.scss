@@ -1,0 +1,49 @@
+.sec1 {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    table {
+      border-collapse: collapse;
+      thead {
+        tr {
+          th {
+            color: red;
+            background-color: rgb(253, 193, 193);
+            border: 1px solid rgb(75, 75, 75);
+            padding: 10px 40px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            color: coral;
+            background-color: rgb(247, 228, 222);
+            border: 1px solid rgb(71, 70, 70);
+            padding: 10px 20px;
+            .edit{
+                background-color:rgb(3, 85, 3) ;
+                padding: 5px 20px;
+                border-radius: 5px;
+                color: white;
+            }
+            .fav{
+                background-color:blue ;
+                padding: 5px 20px;
+                border-radius: 5px;
+                color: white;
+            }
+            .delete{
+                background-color:red ;
+                padding: 5px 15px;
+                border-radius: 5px;
+                color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

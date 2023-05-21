@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>UI</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1>UI API</h1>
+          <ul>
+            <li>
+              <a href="./index.html">
+                <i class="fa-solid fa-house"></i>
+                Home</a
+              >
+            </li>
+            <li>
+              <a href="./form.html">
+                <i class="fa-solid fa-list"></i>
+                Form</a
+              >
+            </li>
+            <li>
+              <a href="./favorite.html">
+                <i class="fa-regular fa-star"></i>
+                Favorite</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="sec2">
+      <div class="container">
+        <form action="">
+          <div>
+            <label for="companyname">Company Name:</label><br>
+            <input
+              type="text"
+              id="companyname"
+              placeholder="Entered your's company name..."
+            />
+          </div>
+          <div>
+            <label for="companytitle">Contact Title:</label><br>
+            <input
+              type="text"
+              id="companytitle"
+              placeholder="Entered your's contact title..."
+            />
+          </div>
+          <div>
+            <label for="address">Your Address:</label><br>
+            <input
+              type="text"
+              id="address"
+              placeholder="Entered your's address..."
+            />
+          </div>
+
+          <a href="./index.html" type="submit" id="submit">Submit</a>
+        </form>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./form.js"></script>
+  </body>
+</html>

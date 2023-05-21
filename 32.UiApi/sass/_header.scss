@@ -1,0 +1,30 @@
+header{background-color: rgb(253, 183, 53);
+    .container{
+
+        nav{padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h1{
+                color: red;
+                
+                text-shadow: 3px 3px 4px black;
+            }
+            ul{ display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                li{
+                    a{
+                        color: white;
+
+                        i{
+                            color:red ;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
