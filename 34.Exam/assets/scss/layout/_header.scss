@@ -1,0 +1,43 @@
+header {
+  height: 10vh;
+  background-color: darkgreen;
+  .container {
+    nav {
+      padding: 10px;
+      @include display;
+      h1 {
+        color: white;
+        font-size: 30px;
+      }
+      ul {
+        @include display;
+        margin: 0;
+        column-gap: 30px;
+        li {
+          a {
+            color: gray;
+            border-bottom: 2px solid transparent;
+            &:hover {
+              border-color: brown;
+              color:brown;
+            }
+          }
+        }
+        @media only screen and (max-width: 992px) {
+          display: none;
+        }
+      }
+      .fa-bars {
+        color: gray;
+        display: none;
+        @media only screen and (max-width: 992px) {
+          display: block;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,55 @@
+.about {
+  background-image: url("./img/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    padding: 50px 100px;
+    .about-note {
+      padding: 0 100px;
+      p {
+        text-align: center;
+        color: $color-green;
+      }
+      .about-note2 {
+        font-size: 40px;
+
+      }
+      @media only screen and (max-width: 767px) {
+       padding: 0;
+       .about-note2 {
+        font-size: 20px;
+
+      }
+       
+}
+    }
+    .search-sort {
+      .sort-user {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        @media only screen and (max-width: 768px) {
+          justify-content: start;
+        }
+      }
+    }
+    .row {
+      .box {
+        img {
+          width: 300px;
+        }
+        .box-note {
+          text-align: center;
+          padding: 30px;
+          p {
+            color: $color-green;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: 768px) {
+    padding: 50px;
+    }
+  }
+}

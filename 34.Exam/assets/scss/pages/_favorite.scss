@@ -1,0 +1,22 @@
+.favorites {
+  .container {
+    padding: 50px;
+    h1{
+        text-align: center;
+        color: $color-green;
+    }
+    .row {
+      .box {
+        img {
+          width: 300px;
+        }
+        .box-note {
+            text-align: center;
+          p {
+            color: $color-green;
+          }
+        }
+      }
+    }
+  }
+}

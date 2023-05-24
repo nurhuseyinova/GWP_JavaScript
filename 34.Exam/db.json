@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "photo": "./assets/image/b4.jpg",
+      "title": "Decoration",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "photo": "./assets/image/b3.jpg",
+      "title": "Lovely Design",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "photo": "./assets/image/b3.jpg",
+      "title": "Events",
+      "price": 700
+    },
+    {
+      "id": 4,
+      "photo": "./assets/image/b3.jpg",
+      "title": "Flowers",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "photo": "./assets/image/b3.jpg",
+      "title": "Strict Design",
+      "price": 2550
+    },
+    {
+      "id": 5,
+      "photo": "./assets/image/b2.jpg",
+      "title": "Life",
+      "price": 1980
+    }
+  ],
+  "favorits": []
+}

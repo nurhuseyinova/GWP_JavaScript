@@ -1,0 +1,76 @@
+.team{
+    .container{
+        padding: 60px 100px;
+        p{
+            color: $color-green;
+            text-align: center;
+        }
+        .contatct{
+            font-size: 15px;
+        }
+        .ourteam{
+            font-size: 50px;
+            margin-bottom:  50px;
+        }
+
+        .row{
+            .col{
+                .team-img{
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    height: 50vh;
+                    width: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                        background-color: white;
+                        // display: none;
+                            padding: 5px;
+                            border: 2px solid rgb(191, 245, 245);
+                            border-radius: 50px;
+                            font-size: 20px;
+                            color: $color-green;
+                            width: 35px;
+                            // &:hover{
+                            //     display: block;
+                            // }
+
+                        
+                    }
+
+                }
+                .team-note{
+                    text-align: center;
+                    .note1{
+                        color: $color-green;
+                        font-size: 20px;
+
+                    }
+                    .note2{
+                        color: $color-green;
+
+                    }
+                }
+                .img1{
+                    background-image: url("./img/portr1.jpg");
+                  
+
+                }
+                .img2{
+                    background-image: url("./img/portr2.jpg");
+                  
+
+                }
+                .img3{
+                    background-image: url("./img/portr3.jpg");
+                  
+
+                }
+            }
+        }
+    }
+}

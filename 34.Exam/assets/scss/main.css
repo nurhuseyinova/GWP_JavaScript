@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 10vh;
+  background-color: darkgreen;
+}
+header .container nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav h1 {
+  color: white;
+  font-size: 30px;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+header .container nav ul li a {
+  color: gray;
+  border-bottom: 2px solid transparent;
+}
+header .container nav ul li a:hover {
+  border-color: brown;
+  color: brown;
+}
+@media only screen and (max-width: 992px) {
+  header .container nav ul {
+    display: none;
+  }
+}
+header .container nav .fa-bars {
+  color: gray;
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  header .container nav .fa-bars {
+    display: block;
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 20px;
+  }
+}
+
+.home .container {
+  padding: 120px;
+}
+.home .container .row .home-item1 {
+  padding-right: 150px;
+}
+.home .container .row .home-item1 p {
+  color: rgb(23, 94, 50);
+}
+.home .container .row .home-item1 .florist {
+  font-size: 40px;
+}
+.home .container .row .home-item1 .mary {
+  font-family: "Playfair", serif;
+}
+.home .container .row .home-item1 .item1-img {
+  display: none;
+  width: 100%;
+  height: 70vh;
+}
+@media only screen and (max-width: 992px) {
+  .home .container .row .home-item1 {
+    padding: 0;
+  }
+  .home .container .row .home-item1 .item1-img {
+    display: block;
+  }
+}
+.home .container .row .home-item2 {
+  display: flex;
+}
+.home .container .row .home-item2 img {
+  height: 60vh;
+  width: 220px;
+}
+.home .container .row .home-item2 .home-img1 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  z-index: 5;
+}
+.home .container .row .home-item2 .home-img2 {
+  position: relative;
+  left: -20px;
+  z-index: 4;
+}
+@media only screen and (max-width: 992px) {
+  .home .container .row .home-item2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .home .container {
+    padding: 50px;
+  }
+}
+
+.about {
+  background-image: url("./img/background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .container {
+  padding: 50px 100px;
+}
+.about .container .about-note {
+  padding: 0 100px;
+}
+.about .container .about-note p {
+  text-align: center;
+  color: rgb(23, 94, 50);
+}
+.about .container .about-note .about-note2 {
+  font-size: 40px;
+}
+@media only screen and (max-width: 767px) {
+  .about .container .about-note {
+    padding: 0;
+  }
+  .about .container .about-note .about-note2 {
+    font-size: 20px;
+  }
+}
+.about .container .search-sort .sort-user {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .about .container .search-sort .sort-user {
+    justify-content: start;
+  }
+}
+.about .container .row .box img {
+  width: 300px;
+}
+.about .container .row .box .box-note {
+  text-align: center;
+  padding: 30px;
+}
+.about .container .row .box .box-note p {
+  color: rgb(23, 94, 50);
+}
+@media only screen and (max-width: 768px) {
+  .about .container {
+    padding: 50px;
+  }
+}
+
+.favorites .container {
+  padding: 50px;
+}
+.favorites .container h1 {
+  text-align: center;
+  color: rgb(23, 94, 50);
+}
+.favorites .container .row .box img {
+  width: 300px;
+}
+.favorites .container .row .box .box-note {
+  text-align: center;
+}
+.favorites .container .row .box .box-note p {
+  color: rgb(23, 94, 50);
+}
+
+.form-sec .container {
+  padding: 50px;
+}
+.form-sec .container h1 {
+  text-align: center;
+  color: rgb(23, 94, 50);
+}
+
+.team .container {
+  padding: 60px 100px;
+}
+.team .container p {
+  color: rgb(23, 94, 50);
+  text-align: center;
+}
+.team .container .contatct {
+  font-size: 15px;
+}
+.team .container .ourteam {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.team .container .row .col .team-img {
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.team .container .row .col .team-img a {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px;
+  border: 2px solid rgb(191, 245, 245);
+  border-radius: 50px;
+  font-size: 20px;
+  color: rgb(23, 94, 50);
+  width: 35px;
+}
+.team .container .row .col .team-note {
+  text-align: center;
+}
+.team .container .row .col .team-note .note1 {
+  color: rgb(23, 94, 50);
+  font-size: 20px;
+}
+.team .container .row .col .team-note .note2 {
+  color: rgb(23, 94, 50);
+}
+.team .container .row .col .img1 {
+  background-image: url("./img/portr1.jpg");
+}
+.team .container .row .col .img2 {
+  background-image: url("./img/portr2.jpg");
+}
+.team .container .row .col .img3 {
+  background-image: url("./img/portr3.jpg");
+}
+
+footer {
+  background-color: rgb(183, 183, 252);
+}
+footer .container {
+  padding: 50px;
+}
+footer .container .row .col img {
+  width: 100px;
+}
+footer .container .row .col .email-input {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+footer .container .row .col .email-input input {
+  background-color: rgb(183, 183, 252);
+  border: none;
+  border-bottom: 1px solid rgb(23, 94, 50);
+  color: rgb(23, 94, 50);
+  position: absolute;
+  left: 0px !important;
+  width: 290px;
+}
+footer .container .row .col .email-input button {
+  background-color: rgb(172, 172, 250);
+  position: relative;
+  color: rgb(23, 94, 50);
+  padding: 0 20px;
+  border: none;
+}
+footer .container .row .col nav {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .row .col nav ul p {
+  color: rgb(23, 94, 50);
+  border-bottom: 1px solid transparent;
+  width: 30px;
+}
+footer .container .row .col nav ul p:hover {
+  border-color: black;
+  color: black;
+}
+footer .container .row .col nav ul li {
+  margin-bottom: 15px;
+}
+footer .container .row .col nav ul li a {
+  border-bottom: 1px solid transparent;
+  color: rgb(23, 94, 50);
+}
+footer .container .row .col nav ul li a:hover {
+  border-color: black;
+  color: black;
+}
+@media only screen and (max-width: 767px) {
+  footer .container .row .col nav {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

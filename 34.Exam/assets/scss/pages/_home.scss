@@ -1,0 +1,59 @@
+.home{
+    .container{
+        padding: 120px;
+        .row{
+            .home-item1{
+                padding-right: 150px;
+                p{
+                    color:$color-green;
+                }
+                .florist{
+                    font-size: 40px;
+                }
+                .mary{
+                     font-family: 'Playfair', serif;
+                }
+                .item1-img{
+                    display: none;
+                    width: 100%;
+                    height: 70vh;
+                }
+                @media only screen and (max-width:992px) {
+                  
+
+                    padding: 0;
+                    .item1-img{
+                        display: block;
+                    }
+                  }
+
+            }
+            .home-item2{
+                display: flex;
+                img{
+                    height: 60vh;
+                    width: 220px;
+                }
+                .home-img1{
+                    position: relative;
+                    top:50px ;
+                    left:30px;
+                    z-index:5 ;
+                }
+                .home-img2{
+                    position: relative;
+                    
+                    left:-20px;
+                    z-index: 4;
+                }
+                @media only screen and (max-width: 992px) {
+                    display: none;
+                  }
+
+            }
+        }
+        @media only screen and (max-width: 992px) {
+            padding: 50px;
+          }
+    }
+}
